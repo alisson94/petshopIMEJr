@@ -8,12 +8,14 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 ul{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 ul li{
@@ -42,6 +44,7 @@ ul li a:hover {
     width: 80%;
     max-height: 500px;
     overflow-y: auto;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
 }
@@ -50,3 +53,4 @@ ul li a:hover {
     max-height: 500px;
     margin: 0px auto;
 }
+
