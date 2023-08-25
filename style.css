@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: greenyellow;
+    background-color: #40a798;
     position: fixed;
     top: 0;
     width: 100%;
@@ -25,11 +25,26 @@ ul li{
     padding: 0px 20px 0px 20px;
 }
 
+content {
+    margin-top: 50px;
+}
+
+h1{
+    text-align: center;
+    justify-content: center;
+    margin: 80px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #14abe7;
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
+}
+
 ul li a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    color: rgb(0, 0, 0);
+    text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
+    color: rgb(250, 250, 250);
 }
 
 ul li a:hover {
@@ -37,7 +52,7 @@ ul li a:hover {
 }
 
 .carrosel{
-    margin: 100px auto;
+    margin: 10px auto;
     border: 2px solid black;
     width: 80%;
     max-height: 500px;
@@ -49,4 +64,25 @@ ul li a:hover {
 .carrosel img{
     max-height: 500px;
     margin: 0px auto;
+}
+
+.anucio {
+    display: flex;
+    align-items: center;
+    background-color: #ff5c00;
+    padding: 20px;
+    margin:20px 0px;
+
+}
+
+.anucio img{
+    max-width: 50%;
+    border:none;
+    border-radius: 10px;
+}
+
+.anucio p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    margin: 20px;
 }
