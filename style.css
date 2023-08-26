@@ -43,9 +43,9 @@ ul li{
 h1{
     text-align: center;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 70px 0px 10px 0px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 80px;
     -webkit-text-stroke-color: gray;
     -webkit-text-stroke-width: 1px;
     color:#40a798;
@@ -90,6 +90,7 @@ ul li a:hover {
     background-color: #ff5c00;
     padding: 20px;
     margin:20px 0px 0px 0px;
+ 
 
 }
 
@@ -97,13 +98,35 @@ ul li a:hover {
     max-width: 50%;
     border:none;
     border-radius: 10px;
+    margin: 20px 20px;
+    
 }
 
 .anucio p{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
     font-size: 30px;
     margin: 20px;
+    flex-direction: column-reverse;
+    padding: 20px;
+
 }
+
+.venda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 15px;
+}
+
+.venda p.tituloVenda {
+    font-size: 50px;
+    
+}
+
+
+
+
 footer {
     background-color: #40a798;
     width:100%;
