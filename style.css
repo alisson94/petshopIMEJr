@@ -50,6 +50,7 @@ h1{
     -webkit-text-stroke-width: 1px;
     color:#40a798;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
+    font-weight: bold;
     
 }
 
@@ -59,6 +60,7 @@ ul li a{
     font-size: 18px;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
     color: rgb(250, 250, 250);
+    cursor: pointer;
 }
 
 ul li a:hover {
@@ -107,7 +109,7 @@ ul li a:hover {
     color: white;
     font-size: 30px;
     margin: 20px;
-    flex-direction: column-reverse;
+    flex-direction: column;
     padding: 20px;
 
 }
@@ -121,7 +123,8 @@ ul li a:hover {
 
 .venda p.tituloVenda {
     font-size: 50px;
-    
+    font-weight: bold;
+
 }
 
 
@@ -130,9 +133,10 @@ ul li a:hover {
 footer {
     background-color: #40a798;
     width:100%;
-    height: 200px;
+    height: 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 footer p{
@@ -142,7 +146,12 @@ footer p{
     -webkit-text-stroke-width: 1px;
     color:#ffffff;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
-    
+    font-weight: bold;    
+}
+
+footer .icons img{
+    cursor: pointer;
+    width: 75px;
     
 }
 
