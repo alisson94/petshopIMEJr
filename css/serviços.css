@@ -1,5 +1,6 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 .servicos {
     margin-top: 80px;
@@ -7,13 +8,16 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    
 }
 
 .hospedagem {
         background-color: #40a696;
        display: flex;
-        
+       margin: 10px 20px 20px 20px;
+        border-radius: 15px;
 }
+
 
 .fotosServicos{
     width: 400px;
@@ -32,10 +36,21 @@
 .banho {
     background-color: #ff5c00;
     display: flex;
+    margin: 10px 20px 20px 20px;
+    border-radius: 15px;
 }
 
 .veterinario {
     background-color: #40a696;
     display: flex;
+    margin: 10px 20px 20px 20px;
+    border-radius: 15px;
 }
+
+.tituloServicos {
+
+    font-size: 32px;
+    
+}
+
 

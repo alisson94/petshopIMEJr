@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-weight: bold;
 }
 
 header {
@@ -9,7 +10,23 @@ header {
     top: 0;
     width: 100%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+}
+
+header .logo img{
+    width:50px;
+}
+
+div.marca{
+    display: flex;
+}
+
+.nomePet {
+    font-size: 25px;
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color: gray;
+    color: white;
+    margin-left: 14px;
 }
 
 /*.container{
