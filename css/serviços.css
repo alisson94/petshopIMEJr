@@ -11,11 +11,17 @@
     
 }
 
+@media (max-widht: 700px) {
+    .hospedagem{
+        flex-direction: column;
+    }
+}
 .hospedagem {
-        background-color: #40a696;
-       display: flex;
-       margin: 10px 20px 20px 20px;
-        border-radius: 15px;
+    background-color: #40a696;
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px 20px 20px;
+    border-radius: 15px;
 }
 
 

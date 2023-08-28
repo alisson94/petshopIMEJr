@@ -29,11 +29,6 @@ div.marca{
     margin-left: 14px;
 }
 
-/*.container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}*/
 
 content {
     display: flex;
@@ -49,7 +44,7 @@ ul{
 
 ul li{
     list-style-type: none;
-    height: 50px;
+    height: 100%;
     padding: auto;
     display: flex;
     align-items: center;
