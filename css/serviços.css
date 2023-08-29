@@ -2,7 +2,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-.servicos {
+content {
     margin-top: 80px;
     display: flex;
     align-items: center;
@@ -11,12 +11,7 @@
     
 }
 
-@media (max-widht: 700px) {
-    .hospedagem{
-        flex-direction: column;
-    }
-}
-.hospedagem {
+.servicos {
     background-color: #40a696;
     display: flex;
     flex-direction: row;
@@ -29,28 +24,31 @@
     width: 400px;
     margin: 10px;
     border: 4px solid white;
-
+    
 }
+
+@media only screen and (max-width: 750px){
+    .servicos{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .fotosServicos{
+        width: 300px;
+    }
+}
+
 .txtServicos{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 
-.banho {
+#banho {
     background-color: #ff5c00;
-    display: flex;
-    margin: 10px 20px 20px 20px;
-    border-radius: 15px;
-}
-
-.veterinario {
-    background-color: #40a696;
-    display: flex;
-    margin: 10px 20px 20px 20px;
-    border-radius: 15px;
 }
 
 .tituloServicos {
