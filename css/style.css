@@ -149,7 +149,8 @@ footer {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 
 footer p{
@@ -159,12 +160,16 @@ footer p{
     color:#ffffff;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
     font-weight: bold;    
+    position: relative;
+    left: 20px;
 }
 
 footer .icons img{
     cursor: pointer;
     width: 75px;
-    
+    padding: 0px 5px;
+    position: relative;
+    right: 20px;
 }
 
 footer .icons
