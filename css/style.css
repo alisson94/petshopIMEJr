@@ -149,7 +149,7 @@ footer {
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 footer p{
@@ -167,3 +167,4 @@ footer .icons img{
     
 }
 
+footer .icons
