@@ -84,7 +84,8 @@ content {
     border-radius: 15px;
     background-color: rgb(200, 200, 200); 
     align-items: center;
-    transition: .5s;   
+    transition: .5s; 
+    cursor: pointer;  
 }
 .produto:hover{
     transform: scale(1.1);
