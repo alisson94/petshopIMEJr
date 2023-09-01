@@ -2,14 +2,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
-content {
-    margin-top: 60px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    
-}
 
 .servicos {
     background-color: #40a696;
@@ -18,7 +10,6 @@ content {
     margin: 15px 20px;
     border-radius: 15px;
 }
-
 
 .fotosServicos{
     width: 400px;
@@ -45,7 +36,6 @@ content {
     justify-content: center;
     padding: 10px;
 }
-
 
 #banho {
     background-color: #ff5c00;

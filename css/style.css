@@ -30,7 +30,6 @@ div.marca{
     margin-left: 14px;
 }
 
-
 content {
     margin-top: 60px;
     display: flex;
@@ -80,8 +79,6 @@ ul li a{
 ul li a:hover {
    opacity: 70%;
 }
-
-
 
 .carrosel{
     background-color: #40a798;
@@ -157,10 +154,7 @@ nav label #img1Label{
     color: white;
     font-size: 40px;
     flex-direction: column;
-    
-
 }
-
 
 .venda {
     display: flex;
@@ -174,10 +168,6 @@ nav label #img1Label{
     font-weight: bold;
 
 }
-
-
-
-
 
 footer {
     background-color: #40a798;
