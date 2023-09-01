@@ -80,24 +80,50 @@ ul li a:hover {
    opacity: 70%;
 }
 
+
+
 .carrosel{
     background-color: #40a798;
-    margin: 10px auto;
-    border: 2px solid black;
     border-radius: 15px;
-
+    margin: 10px auto;
     width: 80%;
-    max-height: 500px;
-    overflow-y: auto;
-    overflow-x: hidden;
+    height: 500px;
+    border: black 1px solid;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
+}
+.carrosel input{
+    display: none;
+}
+.carrosel .imagens{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    transition: .5s;
 }
 
-.carrosel img{
-    max-height: 500px;
-    margin: 0px auto;
+.imagens div{
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
 }
+
+nav{
+    position: absolute;
+}
+
+#img1:checked ~ .imagens{
+    margin-left: 0%;
+}#img2:checked ~ .imagens{
+    margin-left: -100%;
+}#img3:checked ~ .imagens{
+    margin-left: -200%;
+}#img4:checked ~ .imagens{
+    margin-left: -300%;
+}#img5:checked ~ .imagens{
+    margin-left: -400%;
+}
+
 
 .anucio {
     display: flex;
@@ -140,9 +166,6 @@ ul li a:hover {
 
 }
 
-
-
-
 footer {
     background-color: #40a798;
     width:100%;
@@ -171,5 +194,3 @@ footer .icons img{
     position: relative;
     right: 20px;
 }
-
-footer .icons
