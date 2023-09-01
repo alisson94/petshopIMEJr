@@ -11,6 +11,7 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    z-index: 1;
 }
 
 header .logo img{
@@ -144,9 +145,9 @@ nav label #img1Label{
 }
 
 .anucio img{
-    max-width: 50%;
+    width: 500px;
     border:none;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 20px 20px;
     
 }
@@ -154,12 +155,12 @@ nav label #img1Label{
 .anucio p{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-size: 30px;
-    margin: 20px;
+    font-size: 40px;
     flex-direction: column;
-    padding: 20px;
+    
 
 }
+
 
 .venda {
     display: flex;
@@ -174,6 +175,10 @@ nav label #img1Label{
 
 }
 
+
+
+
+
 footer {
     background-color: #40a798;
     width:100%;
@@ -187,7 +192,7 @@ footer {
 footer p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-
+    
     color:#ffffff;
     text-shadow: 3px 2px 2px rgba(0, 0, 0, 0.76);
     font-weight: bold;    
@@ -202,3 +207,55 @@ footer .icons img{
     position: relative;
     right: 20px;
 }
+@media only screen and (max-width: 1000px) {
+
+    .anucio img{
+        width: 200px;
+    }
+    .venda p{
+        font-size:25px;
+    }
+
+.venda p.tituloVenda {
+    font-size:35px;
+}
+}
+
+@media only screen and (max-width: 700px) {
+.anucio{
+    flex-direction: column;
+}
+    .anucio img{
+        width: 200px;
+    }
+    .venda p{
+        font-size:20px;
+    }
+
+.venda p.tituloVenda {
+    font-size:30px;
+}
+footer p{
+    font-size: 35px;
+}
+footer .icons img{
+    width:45px;
+}
+}
+
+@media only screen and (max-width: 300px) {
+    .anucio{
+        flex-direction: column;
+    }
+        .anucio img{
+            width: 130px;
+        }
+        .venda p{
+            font-size:14px;
+        }
+    
+    .venda p.tituloVenda {
+        font-size:20px;
+    }
+    }
+    
