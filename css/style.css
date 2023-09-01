@@ -86,7 +86,7 @@ ul li a:hover {
     background-color: #40a798;
     border-radius: 15px;
     margin: 10px auto;
-    width: 80%;
+    width: 50%;
     border: black 1px solid;
     overflow: hidden;
     display: flex;
@@ -96,23 +96,29 @@ ul li a:hover {
 }
 .carrosel .imagens{
     display: flex;
-    height: 100%;
     width: 100%;
     transition: .5s;
+    max-height: 800px;
 }
 
 .imagens div{
     min-width: 100%;
     display: flex;
     justify-content: center;
+    
 }
 
 .imagens div img{
-    max-width: 100%;
+    width: 100%;
 }
 
-nav{
-    position: relative;
+nav label{
+    width: 25px;
+    height: 25px;
+}
+
+nav label #img1Label{
+    background-image: "imagens/carrosel/c5-p.jpg";
 }
 
 #img1:checked ~ .imagens{
@@ -126,7 +132,6 @@ nav{
 }#img5:checked ~ .imagens{
     margin-left: -400%;
 }
-
 
 .anucio {
     display: flex;
