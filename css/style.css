@@ -37,7 +37,7 @@ div.marca{
 }
 
 content {
-    margin-top: 60px;
+    margin-top: 72px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -131,6 +131,7 @@ nav {
 }
 nav label img{
     width: 100px;
+    transition: .5s;
    
 }
 
@@ -140,6 +141,14 @@ nav label{
     display: flex;
     padding: 10px;
     
+}
+
+nav label:hover {
+    cursor: pointer;
+}
+
+nav label img:hover {
+    width: 120px;
 }
 
 nav label #img1Label{
@@ -168,11 +177,15 @@ nav label #img1Label{
     
 }
 
+.imgVenda {
+    padding: 10px;
+}
+
 .anucio img{
-    width: 500px;
+    width: 250px
     border:none;
     border-radius: 20px;
-    margin: 20px 20px;
+   
     
 }
 
@@ -241,6 +254,19 @@ footer .icons img{
 }
 
 @media only screen and (max-width: 700px) {
+   
+   h1{
+    font-size: 50px;
+   }
+   div.alinharCarrosel {
+    flex-direction: column;
+   }
+   nav {
+    flex-direction: row;
+   }
+   nav label img{
+    width: 80px;
+   }
     .anucio{
         flex-direction: column;
     }
@@ -279,15 +305,22 @@ footer .icons img{
         margin: 7px auto;
     }
     content{
-        margin-top: calc(110px + 105px);
+        margin-top: 231.2px;
     }
 
     footer{
         flex-direction: column;
     }
+    
 }
 
 @media only screen and (max-width: 300px) {
+    .nomePet{
+        font-size:20px;
+    }
+    content{
+        margin-top: 205.6px;
+    }
     .anucio{
         flex-direction: column;
     }
@@ -301,5 +334,6 @@ footer .icons img{
     .venda p.tituloVenda {
         font-size:20px;
     }
+    
 }
 
