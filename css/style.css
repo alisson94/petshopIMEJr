@@ -90,7 +90,7 @@ ul li a:hover {
     background-color: #40a798;
     border-radius: 15px;
     margin: 10px auto;
-    width: 50%;
+    width: 70%;
     border: black 1px solid;
     overflow: hidden;
     display: flex;
@@ -152,6 +152,7 @@ nav label:hover {
 
 nav label img:hover {
     width: 120px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 nav label #img1Label{
@@ -280,8 +281,8 @@ footer .icons img{
     .anucio{
         flex-direction: column;
     }
-    .anucio img{
-        width: 200px;
+    .anucio .imgVenda img{
+        width: 170px;
     }
     .venda p.txtVenda{
         font-size:20px;
